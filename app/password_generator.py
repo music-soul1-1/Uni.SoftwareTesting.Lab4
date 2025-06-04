@@ -4,7 +4,7 @@ import string
 
 def generate_password(length=12, use_digits=True, use_symbols=True, use_uppercase=True):
     if length < 4:
-        raise ValueError("Password too short")
+        raise ValueError("Password is too short")
 
     # Категорії символів
     lowercase = list(string.ascii_lowercase)
