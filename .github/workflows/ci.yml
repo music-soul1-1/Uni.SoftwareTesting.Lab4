@@ -52,6 +52,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=MySuperKey_PG1
-            -Dsonar.organization=my-company-2025
+            -Dsonar.projectKey=music-soul1-1_Uni.SoftwareTesting.Lab4
+            -Dsonar.organization=music-soul1-1
             -Dsonar.python.coverage.reportPaths=coverage.xml
